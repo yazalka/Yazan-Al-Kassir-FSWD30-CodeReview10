@@ -219,7 +219,7 @@ $conn = mysqli_connect('localhost' , 'root' , '' , 'cr10_yazan_al_kassir_biglibr
                   <!--signin -->
                   <form action="" method="post">
                     <input type="text" name="email" placeholder="Email">
-                    <input type="password" name="password" placeholder="password">
+                    <input type="password" name="password" placeholder=Password">
                     <input class="signin_botton" type="submit" name="signin">
                     <?php if (isset($signin_error)){echo $signin_error;} ?>
                   </form>
